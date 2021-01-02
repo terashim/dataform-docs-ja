@@ -21,6 +21,8 @@ Dataform ドキュメント 和訳
     - [Dataform の仕組み](./introduction/how-dataform-works.md)
 - データウェアハウス
     - [BigQuery](./warehouses/bigquery.md)
-- ガイド
+- Dataform プロジェクトの構築
     - データセット
         - [インクリメンタルなデータセット](./guides/datasets/incremental.md)
+    - JavaScript
+        - [インクルードによるコードの再利用](./guides/javascript/includes.md)

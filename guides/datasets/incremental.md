@@ -110,7 +110,7 @@ timestamp > (SELECT MAX(timestamp) FROM default_schema.example_incremental)
 <br />
 
 <div className="bp3-callout bp3-icon-info-sign" markdown="1">
-BigQuery でインクリメンタルなテーブルを作る場合、テーブル全体のスキャンを避けるために少々書き方を変える必要があります。詳しくは [BigQuery に関するガイド](https://docs.dataform.co/warehouses/bigquery#optimizing-partitioned-incremental-tables-for-bigquery) をご覧ください。
+BigQuery でインクリメンタルなテーブルを作る場合、テーブル全体のスキャンを避けるために少々書き方を変える必要があります。詳しくは [BigQueryに関するガイド](https://docs.dataform.co/warehouses/bigquery#optimizing-partitioned-incremental-tables-for-bigquery) をご覧ください。
 
 </div>
 
