@@ -19,3 +19,8 @@ Dataform ドキュメント 和訳
     - [ELT とモダンなデータ基盤](./introduction/modern-data-stack.md)
     - [５分で分る SQLX と Dataform](./introduction/dataform-in-5-minutes.md)
     - [Dataform の仕組み](./introduction/how-dataform-works.md)
+- データウェアハウス
+    - [BigQuery](./warehouses/bigquery.md)
+- ガイド
+    - データセット
+        - [インクリメンタルなデータセット](./guides/datasets/incremental.md)
