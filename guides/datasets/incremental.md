@@ -100,7 +100,7 @@ ${ when(incremental(), `WHERE timestamp > (SELECT MAX(timestamp) FROM ${self()})
 ${ when(incremental(), `WHERE timestamp > (SELECT MAX(timestamp) FROM ${self()})`) }
 ```
 
-この `WHERE` 句によって、ソースデータセットのうち <b>timestamp が処理済みデータ中で最新の timestamp より大きい<b> 行だけが選択されるよう保証されています。
+この `WHERE` 句によって、ソースデータセットのうち <b>timestamp が処理済みデータ中で最新の timestamp より大きい</b> 行だけが選択されるよう保証されています。
 
 ここで対象データセットの名前を取得するのに `self()` が使われていることに注意してください。よって、この `WHERE` 句がコンパイルされると次のように展開されます:
 
